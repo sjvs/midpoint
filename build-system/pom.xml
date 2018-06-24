@@ -251,7 +251,7 @@
             <dependency>
                 <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-classic</artifactId>
-                <version>1.1.2</version>
+                <version>1.2.0</version>
             </dependency>
             <dependency>
                 <groupId>ch.qos.logback</groupId>
@@ -1268,7 +1268,7 @@
 						<id>git-describe</id>
 						<phase>initialize</phase>
 						<configuration>
-							<outputPrefix></outputPrefix>
+							<outputPrefix/>
 						</configuration>
 					</execution>
 				</executions>
@@ -1465,7 +1465,7 @@
 						<id>enforce</id>
 						<configuration>
 							<rules>
-								<dependencyConvergence />
+								<dependencyConvergence/>
 							</rules>
 						</configuration>
 						<goals>
