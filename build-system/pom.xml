@@ -71,7 +71,7 @@
         <xmlunit.version>2.1.1</xmlunit.version>
         <cron4j.version>2.2.3</cron4j.version>
         <hibernate.version>4.3.11.Final</hibernate.version>
-        <h2.version>1.4.193</h2.version>
+        <h2.version>1.4.197</h2.version>
         <jdbc.postgres>9.4.1212.jre7</jdbc.postgres>
         <jdbc.mariadb>1.5.5</jdbc.mariadb>
         <jdbc.mysql>6.0.5</jdbc.mysql>
@@ -1268,7 +1268,7 @@
 						<id>git-describe</id>
 						<phase>initialize</phase>
 						<configuration>
-							<outputPrefix></outputPrefix>
+							<outputPrefix/>
 						</configuration>
 					</execution>
 				</executions>
@@ -1465,7 +1465,7 @@
 						<id>enforce</id>
 						<configuration>
 							<rules>
-								<dependencyConvergence />
+								<dependencyConvergence/>
 							</rules>
 						</configuration>
 						<goals>
