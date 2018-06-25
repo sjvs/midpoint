@@ -50,7 +50,7 @@
         <commons.lang.version>2.6</commons.lang.version>
         <commons.lang3.version>3.1</commons.lang3.version>
         <commons.cli>1.2</commons.cli>
-        <cxf.version>3.1.6</cxf.version>
+        <cxf.version>3.1.9</cxf.version>
         <cxf-xjc.version>3.0.5</cxf-xjc.version>
         <wss4j.version>2.1.5</wss4j.version>
         <dbunit.version>2.4.7</dbunit.version>
@@ -1268,7 +1268,7 @@
 						<id>git-describe</id>
 						<phase>initialize</phase>
 						<configuration>
-							<outputPrefix></outputPrefix>
+							<outputPrefix/>
 						</configuration>
 					</execution>
 				</executions>
@@ -1465,7 +1465,7 @@
 						<id>enforce</id>
 						<configuration>
 							<rules>
-								<dependencyConvergence />
+								<dependencyConvergence/>
 							</rules>
 						</configuration>
 						<goals>
