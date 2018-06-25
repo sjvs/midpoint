@@ -79,7 +79,7 @@
         <groovy.version>2.4.0</groovy.version>
         <activiti-engine.version>5.22.0</activiti-engine.version>
         <activiti-spring.version>5.22.0</activiti-spring.version>
-        <commons-email.version>1.3</commons-email.version>
+        <commons-email.version>1.5</commons-email.version>
         <xmlsec.version>2.0.6</xmlsec.version>
         <connid.version>1.4.2.29</connid.version>
         <jasper.version>6.4.0</jasper.version>
@@ -1268,7 +1268,7 @@
 						<id>git-describe</id>
 						<phase>initialize</phase>
 						<configuration>
-							<outputPrefix></outputPrefix>
+							<outputPrefix/>
 						</configuration>
 					</execution>
 				</executions>
@@ -1465,7 +1465,7 @@
 						<id>enforce</id>
 						<configuration>
 							<rules>
-								<dependencyConvergence />
+								<dependencyConvergence/>
 							</rules>
 						</configuration>
 						<goals>
