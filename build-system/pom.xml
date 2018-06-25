@@ -64,7 +64,7 @@
         <selenium.version>1.0.1</selenium.version>
         <slf4j.version>1.7.12</slf4j.version>
         <spring.version>4.2.5.RELEASE</spring.version>
-        <spring.security.version>4.1.0.RELEASE</spring.security.version>
+        <spring.security.version>4.2.3.RELEASE</spring.security.version>
         <cas.client.version>3.4.1</cas.client.version>
         <testng.version>6.8.8</testng.version>
         <xml.resolver.version>1.2</xml.resolver.version>
@@ -1268,7 +1268,7 @@
 						<id>git-describe</id>
 						<phase>initialize</phase>
 						<configuration>
-							<outputPrefix></outputPrefix>
+							<outputPrefix/>
 						</configuration>
 					</execution>
 				</executions>
@@ -1465,7 +1465,7 @@
 						<id>enforce</id>
 						<configuration>
 							<rules>
-								<dependencyConvergence />
+								<dependencyConvergence/>
 							</rules>
 						</configuration>
 						<goals>
